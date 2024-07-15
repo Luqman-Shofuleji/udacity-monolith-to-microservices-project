@@ -11,7 +11,7 @@ before_install:
   # Tagging
   - docker tag udagram-api-feed luqmanshofuleji/udagram-api-feed:v2
   - docker tag udagram-api-user luqmanshofuleji/udagram-api-user:v2
-  - docker tag udagram-frontend:local luqmanshofuleji/udagram-frontend:v2
+  - docker tag udagram-frontend luqmanshofuleji/udagram-frontend:v2
   - docker tag reverseproxy luqmanshofuleji/reverseproxy:v2
 
 script:
